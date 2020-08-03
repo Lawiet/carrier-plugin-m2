@@ -1,0 +1,27 @@
+{
+    "name": "lawiet/carrier-plugin-m2",
+    "description": "Carrier base integrations plugin",
+    "type": "magento2-component",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "Jose Ramos",
+            "email": "jramosch@klikealo.com"
+        }
+    ],
+    "repositories" : [
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Klikealo\\Carrier\\": "src"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    }
+}
